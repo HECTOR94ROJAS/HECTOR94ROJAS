@@ -9,9 +9,9 @@ if calificacion < 700 :
 elif calificacion == 700:
     print("PANZAZOOOO")
 elif calificacion > 1000 :   
-    print("Mientes!! No puedes sacar màs de mil")
+    print("Mientes No puedes sacar màs de mil")
 else :#Si no se cumple el if anterior, pasa a esta linea
- print("Felicidades, pasa por tu Certificado") #Se ejecuta si ninguno de los if se cumple
+    print("Felicidades, pasa por tu Certificado") #Se ejecuta si ninguno de los if se cumple
 
 #Verificador de mayorìa de edad
 edad = input ("Introduce tu edad?")
