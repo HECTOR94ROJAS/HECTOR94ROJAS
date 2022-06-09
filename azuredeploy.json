@@ -1,0 +1,19 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.jsona",
+    "ContentVersion": "1.0.1.0",
+    "resources": [
+        { 
+           "type": "Microsoft.Storage/storageAccounts",
+          "apiVesion": "2021-09-01",
+           "name": "micuentadealmacenamiento",
+           "location" "Central US",
+           "sku": {
+               "name": "Standard_LRS"
+           },
+            "kind": "Storagev2",
+            "properties": {
+                "supportsHttpsTrafficOnly": true
+            }
+        }
+    ]    
+}
